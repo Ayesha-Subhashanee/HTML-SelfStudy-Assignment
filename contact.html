@@ -1,13 +1,73 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Stepify — Contact</title><link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stepify — Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'></text></svg>">
 </head>
 <body>
-<header class="site-header"><div class="brand">Stepify</div>
-<nav class="site-nav"><a href="index.html">Home</a><a href="products.html">Products</a><a href="contact.html" class="active">Contact</a></nav>
-</header>
-<main class="container"><h1 class="page-title">Contact</h1></main>
-<footer class="site-footer"><small>© 2025 Stepify. For coursework/demo use.</small></footer>
+  <header class="site-header">
+    <div class="container row between center">
+      <a class="brand" href="index.html">Stepify</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container wrap">
+    <div class="contact-grid">
+      <section class="panel">
+        <h2>Visit us at</h2>
+
+        <div class="section">
+          <div><strong>Stepify</strong></div>
+          <div>Espoo, Finland</div>
+        </div>
+
+        <hr class="sep">
+
+        <div class="section">
+          <div class="label">Email:</div>
+          <div><a href="mailto:ayesha@subha.com">ayesha@subha.com</a></div>
+        </div>
+
+        <div class="section">
+          <div class="label">Phone:</div>
+          <div><a href="tel:+355444">+355444</a></div>
+        </div>
+
+
+        <hr class="sep">
+
+        <div class="section">
+          <h3 style="margin:0 0 .5rem 0;">Follow us</h3>
+          <div style="display:flex;gap:1.5rem;font-weight:700">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <iframe class="mapframe"
+          src="https://www.google.com/maps?q=Espoo%2C%20Finland&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Map of Espoo, Finland"></iframe>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container small">
+      <p>© 2025 Stepify. Educational assignment.</p>
+    </div>
+  </footer>
 </body>
 </html>
